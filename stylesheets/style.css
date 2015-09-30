@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 1350px;
+	height: 1000px;
+	margin: auto;
+}
+
+nav {
+	width: 250px;
+	height: 1000px;
+	text-align: center;
+	border: 1px solid green;
+	float: left;
+	overflow: auto;
+	display: block;
+	position: absolute;
+}
+
+main {
+	min-width: 1100px;
+	height: 1000px;
+	text-align: center;
+	border: 1px solid black;
+	margin: auto;
+	float: right;
+	overflow: auto;
+	display: block;
+}
