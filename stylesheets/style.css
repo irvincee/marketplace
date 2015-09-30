@@ -17,21 +17,22 @@ nav {
 	width: 200px;
 	height: 1000px;
 	text-align: center;
-	border-right: 1px solid green;
-	border-left: 1px solid green;
 	float: left;
 	overflow: auto;
-	display: block;
 	position: absolute;
 }
 
 h1 {
-	margin-top: 200px;
+	margin: 200px 0px 50px 0px;
 	padding: 30px;
 }
 
 nav li {
-	padding: 5px;
+	width: 100px;
+	margin: 20px auto 20px auto;
+	padding: 10px;
+	list-style: none;
+	border: 2px solid black;
 }
 
 /* Main Content */
@@ -40,7 +41,6 @@ main {
 	min-width: 850px;
 	height: 1000px;
 	text-align: center;
-	border-right: 1px solid black;
 	margin: auto;
 	float: right;
 	overflow: auto;
@@ -55,14 +55,15 @@ main {
 }
 
 #maincontent p {
-	border: 1px solid black;
-	padding: 180px;
+	width: 100px;
+	padding: 20px;
+	border: 1px solid green;
+	margin: 160px auto;
 }
 
 /* Secondary Content */
 
 #second{
-	border: 1px solid black;
 	width: 760px;
 	height: 200px;
 	margin: 40px auto 40px auto;
@@ -83,11 +84,17 @@ main {
 	float: right;
 }
 
+.secondarycontent p{
+	width: 100px;
+	padding: 20px;
+	border: 1px solid green;
+	margin: 70px auto;
+}
+
 
 /* Tertiary Content */
 
 #third {
-	border: 1px solid black;
 	width: 760px;
 	height: 200px;
 	margin: 40px auto 40px auto;
@@ -110,6 +117,10 @@ main {
 
 #third p {
 	border: 1px solid green;
+	width: 100px;
+	padding: 20px;
+	border: 1px solid green;
+	margin: 70px auto;
 }
 
 /* Footer */
