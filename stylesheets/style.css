@@ -3,6 +3,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -23,8 +24,9 @@ nav {
 }
 
 h1 {
-	margin: 200px 0px 50px 0px;
+	margin: 200px 0 50px 0;
 	padding: 30px;
+	font-size: 50px;
 }
 
 nav li {
@@ -33,6 +35,11 @@ nav li {
 	padding: 10px;
 	list-style: none;
 	border: 2px solid black;
+	font-size: 12px;
+}
+
+nav a {
+	text-decoration: none;
 }
 
 /* Main Content */
@@ -47,50 +54,86 @@ main {
 	display: block;
 }
 
+main a {
+	text-decoration: none;
+}
+
 #maincontent {
-	border: 1px solid black;
+	border: 1px solid white;
 	height: 380px;
 	width: 760px;
 	margin: 40px auto 20px auto;
+	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/adidas.jpg");
+	background-position: left center;
 }
 
 #maincontent p {
-	width: 100px;
+	font-size: 30px;
+	color: white;
+	width: 200px;
 	padding: 20px;
-	border: 1px solid green;
 	margin: 160px auto;
+}
+
+#maincontent a:hover {
+	text-decoration: underline;
+}
+
+#maincontent a:visited {
+	color: white;
 }
 
 /* Secondary Content */
 
-#second{
+#second {
 	width: 760px;
 	height: 200px;
 	margin: 40px auto 40px auto;
 } 
 
+#second p {
+	font-size: 30px;
+	color: white;
+}
+
 .secondarycontent {
 	display: inline-block;
-	border: 1px solid black;
 	height: 200px;
 	width: 226px;
 }
 
-#second a:nth-child(1) {
-	float: left;
-}
-
-#second a:nth-child(3) {
-	float: right;
-}
-
-.secondarycontent p{
+.secondarycontent p {
+	font-size: 20px;
 	width: 100px;
 	padding: 20px;
-	border: 1px solid green;
 	margin: 70px auto;
 }
 
+#second a:nth-child(1) {
+	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/blackpullover.jpg");
+	background-position: center top;
+	float: left;
+}
+
+#second a:nth-child(2) {
+	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/pinkshoes.jpg");
+	background-position: center center;
+	display: inline-block;
+}
+
+#second a:nth-child(3) {
+	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/quickstand.jpg");
+	background-position: center top;
+	float: right;
+}
+
+#second p:hover {
+	text-decoration: underline;
+}
+
+#second p:visited {
+	color: white;
+}
 
 /* Tertiary Content */
 
@@ -102,32 +145,42 @@ main {
 
 .tertiarycontent {
 	display: inline-block;
-	border: 1px solid black;
 	width: 360px;
 	height: 200px;
 }
 
 #third a:nth-child(1) {
+	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/goldlighter.jpg");
+	background-position: left bottom;
 	float: left;
 }
 
 #third a:nth-child(2) {
+	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/nikecortez.jpg");
+	background-position: center center;
 	float: right;
 }
 
 #third p {
-	border: 1px solid green;
+	font-size: 30px;
+	color: white;
 	width: 100px;
 	padding: 20px;
-	border: 1px solid green;
 	margin: 70px auto;
+}
+
+#third p:hover {
+	text-decoration: underline;
+}
+
+#third p:visited {
+	color: white;
 }
 
 /* Footer */
 
 footer .social {
 	display: inline-block;
-	padding: 0px 30px 0px 30px;
-
+	padding: 0 30px 0 30px;
 }
 
