@@ -41,6 +41,7 @@ h1 {
 
 nav a {
 	text-decoration: none;
+	color: black;
 }
 
 nav a:visited {
@@ -88,6 +89,7 @@ main a {
 
 #maincontent a:hover {
 	text-decoration: underline;
+	color: white;
 }
 
 #maincontent a:visited {
