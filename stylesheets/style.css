@@ -193,7 +193,8 @@ main a {
 /* Footer */
 
 footer {
-	display: inline-block;
+	display: block;
+	clear: auto;
 }
 
 footer a {
@@ -205,4 +206,34 @@ footer img {
 	width: 30px;
 }
 
+/* Onsale Layout */
+
+#special {
+	width: 850px;
+	height: 1000px;
+	overflow-y: hidden;
+}
+
+.column {
+	margin: 40px 10px 41px 10px;
+	width: 235px;
+	height: 855px;
+	display: inline-block;
+	}
+
+.regular {
+	margin-bottom: 10px;
+	width: 235px;
+	height: 281px;
+	display: block;
+	border: 1px solid black;
+}
+
+.large {
+	margin-bottom: 10px;
+	width: 235px;
+	height: 575px;
+	display: block;
+	border: 1px solid black;
+}
 
