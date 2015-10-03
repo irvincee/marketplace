@@ -221,19 +221,41 @@ footer img {
 	display: inline-block;
 	}
 
-.regular {
+.regular1, .regular2, .regular3, .regularr3, .regularrr3{
 	margin-bottom: 10px;
 	width: 235px;
-	height: 281px;
+	height: 282px;
 	display: block;
-	border: 1px solid black;
 }
 
-.large {
+.large1, .large2 {
 	margin-bottom: 10px;
 	width: 235px;
 	height: 575px;
 	display: block;
-	border: 1px solid black;
 }
 
+.regular1 {
+	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/brownjacket.jpg");
+	background-position: center center;
+}
+
+.large1 {
+	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/large1.jpg");
+	background-position: center center;
+}
+
+.large2 {
+	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/large2.jpg");
+	background-position: center center;
+}
+
+.regular2 {
+	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/lightjacket.jpg");
+	background-position: top center;
+}
+
+.regular3 {
+	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/whiteblueshirt.jpg");
+	background-position: center center;
+}
