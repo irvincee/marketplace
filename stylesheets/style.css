@@ -75,7 +75,7 @@ main a {
 	height: 380px;
 	width: 760px;
 	border: 1px solid white;
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/adidas.jpg");
+	background-image: url("https://raw.githubusercontent.com/irvincee/marketplace/master/images/adidas.jpg");
 	background-position: left center;
 }
 
@@ -123,19 +123,19 @@ main a {
 }
 
 #second a:nth-child(1) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/blackpullover.jpg");
+	background-image: url("https://raw.githubusercontent.com/irvincee/marketplace/master/images/blackpullover.jpg");
 	background-position: center top;
 	float: left;
 }
 
 #second a:nth-child(2) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/pinkshoes.jpg");
+	background-image: url("https://raw.githubusercontent.com/irvincee/marketplace/master/images/pinkshoes.jpg");
 	background-position: center center;
 	display: inline-block;
 }
 
 #second a:nth-child(3) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/quickstand.jpg");
+	background-image: url("https://raw.githubusercontent.com/irvincee/marketplace/master/images/quickstand.jpg");
 	background-position: center top;
 	float: right;
 }
@@ -163,13 +163,13 @@ main a {
 }
 
 #third a:nth-child(1) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/goldlighter.jpg");
+	background-image: url("https://raw.githubusercontent.com/irvincee/marketplace/master/images/goldlighter.jpg");
 	background-position: left bottom;
 	float: left;
 }
 
 #third a:nth-child(2) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/nikecortez.jpg");
+	background-image: url("https://raw.githubusercontent.com/irvincee/marketplace/master/images/nikecortez.jpg");
 	background-position: center center;
 	float: right;
 }
