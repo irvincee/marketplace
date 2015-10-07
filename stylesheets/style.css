@@ -1,0 +1,408 @@
+/* HTML + Body */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	margin: auto;
+	width: 1050px;
+	height: 1000px;
+	
+}
+
+/* Nav */
+
+nav {
+	width: 200px;
+	height: 1000px;
+	text-align: center;
+	float: left;
+	overflow: auto;
+	position: absolute;
+}
+
+h1 {
+	margin: 200px 0 50px 0;
+	padding: 30px;
+	font-size: 50px;
+}
+
+.button {
+	margin: 20px auto 20px auto;
+	padding: 10px;
+	width: 100px;
+	list-style: none;
+	border: 2px solid black;
+	font-size: 12px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+nav a:visited {
+	color: black;
+}
+
+nav a:hover .button {
+	text-decoration: underline;
+	background-color: black;
+	color:white;
+}
+
+/* Main Content */
+
+main {
+	margin: auto;
+	min-width: 850px;
+	height: 1000px;
+	text-align: center;
+	float: right;
+	overflow: auto;
+	display: block;
+}
+
+main a {
+	text-decoration: none;
+}
+
+#maincontent {
+	margin: 40px auto 20px auto;
+	height: 380px;
+	width: 760px;
+	border: 1px solid white;
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/adidas.jpg");
+	background-position: left center;
+}
+
+#maincontent p {
+	margin: 160px auto;
+	padding: 20px;
+	width: 200px;
+	font-size: 30px;
+	color: white;
+}
+
+#maincontent a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+#maincontent a:visited {
+	color: white;
+}
+
+/* Secondary Content */
+
+#second {
+	margin: 40px auto 40px auto;
+	width: 760px;
+	height: 200px;
+} 
+
+#second p {
+	font-size: 30px;
+	color: white;
+}
+
+.secondarycontent {
+	width: 226px;
+	height: 200px;
+	display: inline-block;
+}
+
+.secondarycontent p {
+	margin: 70px auto;
+	padding: 20px;
+	width: 100px;
+	font-size: 20px;
+}
+
+#second a:nth-child(1) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/blackpullover.jpg");
+	background-position: center top;
+	float: left;
+}
+
+#second a:nth-child(2) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/pinkshoes.jpg");
+	background-position: center center;
+	display: inline-block;
+}
+
+#second a:nth-child(3) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/quickstand.jpg");
+	background-position: center top;
+	float: right;
+}
+
+#second p:hover {
+	text-decoration: underline;
+}
+
+#second p:visited {
+	color: white;
+}
+
+/* Tertiary Content */
+
+#third {
+	margin: 40px auto 40px auto;
+	width: 760px;
+	height: 200px;
+}
+
+.tertiarycontent {
+	width: 360px;
+	height: 200px;
+	display: inline-block;
+}
+
+#third a:nth-child(1) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/goldlighter.jpg");
+	background-position: left bottom;
+	float: left;
+}
+
+#third a:nth-child(2) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/nikecortez.jpg");
+	background-position: center center;
+	float: right;
+}
+
+#third p {
+	margin: 70px auto;
+	padding: 20px;
+	width: 100px;
+	font-size: 30px;
+	color: white;
+}
+
+#third p:hover {
+	text-decoration: underline;
+}
+
+#third p:visited {
+	color: white;
+}
+
+/* Footer */
+
+footer {
+	display: block;
+	clear: auto;
+}
+
+footer a {
+	margin: 0 20px 0 20px;
+}
+
+footer img {
+	height: 30px; 
+	width: 30px;
+}
+
+/* Site layout (Onsale, Mens, Womens, Lifestyle */
+
+#special {
+	width: 850px;
+	height: 1000px;
+	overflow-y: hidden;
+}
+
+.column {
+	margin: 40px 10px 41px 10px;
+	width: 235px;
+	height: 855px;
+	display: inline-block;
+	}
+
+/* Mens, Womens, Onsale, and Lifestyle Layout */
+
+.regular1, .regular2, .regular3, .onsalereg1, .onsalereg2, .onsalereg3, .womensreg1, .womensreg2, .womensreg3, .lifestylereg1, .lifestylereg2, .lifestylereg3 {
+	margin-bottom: 10px;
+	width: 235px;
+	height: 282px;
+	display: block;
+}
+
+.large1, .large2, .onsalelarge1, .onsalelarge2, .onsalelarge3, .womenslarge1, .womenslarge2, .lifestylelarge1, .lifestylelarge2 {
+	margin-bottom: 10px;
+	width: 235px;
+	height: 575px;
+	display: block;
+}
+
+/* Images */ 
+
+.regular1 {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/brownjacket.jpg");
+	background-position: center center;
+}
+
+.large1 {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/large1.jpg");
+	background-position: center center;
+}
+
+.large2 {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/large2.jpg");
+	background-position: center center;
+}
+
+.regular2 {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/lightjacket.jpg");
+	background-position: top center;
+}
+
+.regular3:nth-child(1) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/whiteblueshirt.jpg");
+	background-position: center center;
+}
+
+.regular3:nth-child(2) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/blacksweater.jpg");
+	background-position: center center;
+}
+
+.regular3:nth-child(3) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/navyshirt.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.onsalereg1:nth-child(1) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/hat.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.onsalereg1:nth-child(2) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/keyring.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.onsalereg1:nth-child(3) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/nike.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.onsalereg2:nth-child(1) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/umbrella.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.onsalereg2:nth-child(2) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/wallet.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.onsalereg2:nth-child(3) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/socks.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.onsalereg3:nth-child(1) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/pin.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.onsalereg3:nth-child(2) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/hat2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.onsalereg3:nth-child(3) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/patta.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.lifestylereg1:nth-child(1) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/lifestyle/id7.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.lifestylereg1:nth-child(2) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/lifestyle/poor.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.lifestylereg2:nth-child(1) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/lifestyle/taste.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.lifestylereg2:nth-child(2) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/lifestyle/wallpaper.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.lifestylereg3:nth-child(1) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/lifestyle/yeezus.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.lifestylereg3:nth-child(2) {
+	background-image: url("https://s3.amazonaws.com/assets-market-place/lifestyle/world.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.womensreg1{
+	background-image: url("https://s3.amazonaws.com/assets-market-place/womens/shoes.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.womenslarge1{
+	background-image: url("https://s3.amazonaws.com/assets-market-place/womens/coat.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.womensreg2{
+	background-image: url("https://s3.amazonaws.com/assets-market-place/womens/bag.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.womenslarge2{
+	background-image: url("https://s3.amazonaws.com/assets-market-place/womens/dress.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.womensreg3:nth-child(1){
+	background-image: url("https://s3.amazonaws.com/assets-market-place/womens/purse.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.womensreg3:nth-child(2){
+	background-image: url("https://s3.amazonaws.com/assets-market-place/womens/shoes2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.womensreg3:nth-child(3){
+	background-image: url("https://s3.amazonaws.com/assets-market-place/womens/sweater.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
