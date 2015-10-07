@@ -75,7 +75,7 @@ main a {
 	height: 380px;
 	width: 760px;
 	border: 1px solid white;
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/adidas.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/adidas.jpg");
 	background-position: left center;
 }
 
@@ -123,19 +123,19 @@ main a {
 }
 
 #second a:nth-child(1) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/blackpullover.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/blackpullover.jpg");
 	background-position: center top;
 	float: left;
 }
 
 #second a:nth-child(2) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/pinkshoes.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/pinkshoes.jpg");
 	background-position: center center;
 	display: inline-block;
 }
 
 #second a:nth-child(3) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/quickstand.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/quickstand.jpg");
 	background-position: center top;
 	float: right;
 }
@@ -163,13 +163,13 @@ main a {
 }
 
 #third a:nth-child(1) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/goldlighter.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/goldlighter.jpg");
 	background-position: left bottom;
 	float: left;
 }
 
 #third a:nth-child(2) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/nikecortez.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/nikecortez.jpg");
 	background-position: center center;
 	float: right;
 }
@@ -240,169 +240,169 @@ footer img {
 /* Images */ 
 
 .regular1 {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/brownjacket.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/brownjacket.jpg");
 	background-position: center center;
 }
 
 .large1 {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/large1.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/large1.jpg");
 	background-position: center center;
 }
 
 .large2 {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/large2.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/large2.jpg");
 	background-position: center center;
 }
 
 .regular2 {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/lightjacket.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/lightjacket.jpg");
 	background-position: top center;
 }
 
 .regular3:nth-child(1) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/whiteblueshirt.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/whiteblueshirt.jpg");
 	background-position: center center;
 }
 
 .regular3:nth-child(2) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/blacksweater.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/blacksweater.jpg");
 	background-position: center center;
 }
 
 .regular3:nth-child(3) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/navyshirt.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/navyshirt.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .onsalereg1:nth-child(1) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/onsale/hat.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/hat.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .onsalereg1:nth-child(2) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/onsale/keyring.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/keyring.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .onsalereg1:nth-child(3) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/onsale/nike.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/nike.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .onsalereg2:nth-child(1) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/onsale/umbrella.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/umbrella.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .onsalereg2:nth-child(2) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/onsale/wallet.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/wallet.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .onsalereg2:nth-child(3) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/onsale/socks.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/socks.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .onsalereg3:nth-child(1) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/onsale/pin.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/pin.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .onsalereg3:nth-child(2) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/onsale/hat2.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/hat2.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .onsalereg3:nth-child(3) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/onsale/patta.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/onsale/patta.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .lifestylereg1:nth-child(1) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/Lifestyle/id7.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/lifestyle/id7.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .lifestylereg1:nth-child(2) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/Lifestyle/poor.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/lifestyle/poor.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .lifestylereg2:nth-child(1) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/Lifestyle/taste.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/lifestyle/taste.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .lifestylereg2:nth-child(2) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/Lifestyle/wallpaper.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/lifestyle/wallpaper.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .lifestylereg3:nth-child(1) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/Lifestyle/yeezus.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/lifestyle/yeezus.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .lifestylereg3:nth-child(2) {
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/Lifestyle/world.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/lifestyle/world.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .womensreg1{
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/womens/shoes.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/womens/shoes.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .womenslarge1{
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/womens/coat.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/womens/coat.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .womensreg2{
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/womens/bag.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/womens/bag.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .womenslarge2{
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/womens/dress.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/womens/dress.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .womensreg3:nth-child(1){
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/womens/purse.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/womens/purse.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .womensreg3:nth-child(2){
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/womens/shoes2.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/womens/shoes2.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
 
 .womensreg3:nth-child(3){
-	background-image: url("/Users/Irving/Desktop/WebDev/Marketplace/images/womens/sweater.jpg");
+	background-image: url("https://s3.amazonaws.com/assets-market-place/womens/sweater.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
