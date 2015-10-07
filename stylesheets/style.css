@@ -74,7 +74,7 @@ main a {
 	margin: 40px auto 20px auto;
 	height: 380px;
 	width: 760px;
-	border: 1px solid white;
+	border: 1px solid white; 
 	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/adidas.jpg");
 	background-position: left center;
 }
@@ -87,7 +87,13 @@ main a {
 	color: white;
 }
 
-#maincontent a:hover {
+.primarycontent {
+	height: 380px;
+	width: 760px;
+	display: inline-block;
+}
+
+#maincontent p:hover {
 	text-decoration: underline;
 	color: white;
 }
@@ -95,6 +101,8 @@ main a {
 #maincontent a:visited {
 	color: white;
 }
+
+
 
 /* Secondary Content */
 
