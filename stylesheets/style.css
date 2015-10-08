@@ -102,8 +102,6 @@ main a {
 	color: white;
 }
 
-
-
 /* Secondary Content */
 
 #second {
@@ -250,7 +248,6 @@ footer img {
 .regular1 {
 	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/brownjacket.jpg");
 	background-position: center center;
-	background-repeat: no-repeat;
 }
 
 .large1 {
@@ -261,6 +258,7 @@ footer img {
 .large2 {
 	background-image: url("https://s3.amazonaws.com/assets-market-place/assets/large2.jpg");
 	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .regular2 {
