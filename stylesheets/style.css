@@ -413,3 +413,36 @@ footer img {
 	background-position: center center;
 	background-repeat: no-repeat;
 }
+
+/* Blog
+~~~~~~~~~~~~~ */
+
+#blog {
+	margin: auto;
+	width: 825px;
+	height: 1000px;
+	text-align: center;
+	float: right;
+	overflow: auto;
+	display: block;
+}
+
+#blog h1 {
+	margin-top: 50px;
+}
+
+#blog h2 {
+	text-align: left;
+}
+
+#blog p {
+	width: 500px;
+	height: 250px;
+	text-align: left;
+	line-height: 30px;
+
+}
+
+#blog h4 {
+	text-align: left;
+}
