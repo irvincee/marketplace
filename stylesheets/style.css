@@ -420,7 +420,7 @@ footer img {
 #blog {
 	margin: auto;
 	width: 825px;
-	height: 1000px;
+	height: 950px;
 	text-align: center;
 	float: right;
 	overflow: auto;
@@ -451,9 +451,14 @@ footer img {
 ~~~~~~~~~~~~~ */
 #about {
 	width: 800px;
-	height: 1000px;
+	height: 900px;
+}
+
+#about h1 {
+	margin-top: 50px;
 }
 
 #about p {
-	text-align: left;
+	text-align: center;
+	line-height: 30px;
 }
