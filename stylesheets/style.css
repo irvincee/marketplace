@@ -446,3 +446,14 @@ footer img {
 #blog h4 {
 	text-align: left;
 }
+
+/* About
+~~~~~~~~~~~~~ */
+#about {
+	width: 800px;
+	height: 1000px;
+}
+
+#about p {
+	text-align: left;
+}
